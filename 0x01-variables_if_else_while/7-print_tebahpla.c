@@ -1,13 +1,3 @@
-#include <stdlib.h>
-#include <time.h>
-#include <stdio.h>
-/**
- * main - entry point
- * print message
- * Return: 0
- */
-
-int main(void)
 #include <stdio.h>
 /**
 *main - entry point
