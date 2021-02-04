@@ -1,25 +1,20 @@
-#include <stdlib.h>
-#include <time.h>
+
 #include <stdio.h>
 /**
- * main - entry point
- * print message
- * Return: success
- */
-
-/* more headers goes there */
-
-/* betty style doc for function main goes there */
+*main - entry point
+*Return: 0
+*/
 int main(void)
 {
-	char x;
+	char i;
 
-	for (x = 'a'; x <= 'z'; x++)
-	if  ((x != 'e') && (x != 'q'))
+	for (i = 'a'; i - 1 < 'z'; ++i)
 	{
-	putchar(x);
+		if ((i != 'q') && (i != 'e'))
+		{
+			putchar(i);
+		}
 	}
 	putchar('\n');
-
 	return (0);
 }
