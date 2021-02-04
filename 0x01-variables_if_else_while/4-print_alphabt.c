@@ -12,12 +12,10 @@
 /* betty style doc for function main goes there */
 int main(void)
 {
-char x;
-for (x = 'a'; x <= 'z'; x++)
-{
-putchar(x);
-}
-if  ((x != 'e') && (x != 'q'))
+	char x;
+
+	for (x = 'a'; x <= 'z'; x++)
+	if  ((x != 'e') && (x != 'q'))
 	{
 	putchar(x);
 	}
