@@ -3,12 +3,9 @@
 #include <stdio.h>
 /**
  * main - entry point.
- * print message
+ *
  * Return: success
  */
-/* more headers goes there */
-
-/* betty style doc for function main goes there */
 int main(void)
 {
 int n, c;
@@ -22,7 +19,7 @@ if (c > 5)
 {
 printf("and is greater than 5\n");
 }
-else if (c == 0)
+if (c == 0)
 {
 printf("and is 0\n");
 }
