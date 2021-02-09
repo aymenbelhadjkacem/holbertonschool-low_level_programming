@@ -12,4 +12,5 @@ for (x = 'a'; x <= 'z'; x++)
 {
 _putchar(x);
 }
-_putch
+_putchar('\n');
+}
