@@ -1,0 +1,6 @@
+#include "holberton"
+/**
+*_islower - 0
+*@c: an integer
+*Return: either 0 or 1
+*/
