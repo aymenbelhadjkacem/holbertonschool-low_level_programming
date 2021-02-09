@@ -1,15 +1,15 @@
 #include "holberton.h"
 /**
-*print_alphabet - 0
-*
-*
-*Return: 0
-*/
+ * print_alphabet - print
+ * print message
+ * Return: success
+ */
 void print_alphabet(void)
 {
-for (char c = 'a'; c <= 'z'; ++c)
+int x;
+
+for (x = 'a'; x <= 'z'; x++)
 {
-_putchar("%c ", c);
+_putchar(x);
 }
-_putchar("\n");
-}
+_putch
