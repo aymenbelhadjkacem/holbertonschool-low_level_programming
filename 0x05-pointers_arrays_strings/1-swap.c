@@ -1,14 +1,14 @@
 #include "holberton.h"
-#include <stdio.h>
 /**
-*swap_int - OPPA
-*@a:pointer
-*@b:pointer
-*Return: 0
-*/
+ * swap_int - function that swaps the values of two integers
+ * @a:first int.
+ * @b:second int.
+ */
 void swap_int(int *a, int *b)
-int i;
-i  = *b;
-*b = *a;
-*a = i;
+{
+int f;
+f = 0;
+f = *a;
+*a = *b;
+*b = f;
 }
