@@ -1,19 +1,17 @@
 #include "holberton.h"
+#include <stdio.h>
 /**
-* _puts - function that prints a string to stdout.
-* @str: string.
-* Return: nothing.
+* _puts - Function
+* @str: pointer
 */
 void _puts(char *str)
-	{
-int i;
-
-i = 0;
-while (*str != '\0')
 {
-_putchar(*str);
-str++
-i++
+int x;
+x = 0;
+while (str[x] != '\0')
+{
+_putchar(str[x]);
+x++;
 }
 _putchar('\n');
-	}
+}
